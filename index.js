@@ -10,3 +10,7 @@ function logDriversByHometown(names, town) {
     if(names[el].hometown == town) { console.log(names[el].name) }
   }
 }
+
+function driversByRevenue(arr) {
+  return arr.sort()
+}
