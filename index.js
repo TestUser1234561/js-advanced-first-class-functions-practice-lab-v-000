@@ -18,7 +18,7 @@ function driversByRevenue(arr) {
   })
 }
 
-function driversByRevenue(arr) {
+function driversByName(arr) {
   let newArr = [...arr]
   return newArr.sort(function (a, b) {
     return a.name.localeCompare(b.name)
