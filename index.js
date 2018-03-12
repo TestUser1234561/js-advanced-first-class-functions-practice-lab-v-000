@@ -26,5 +26,5 @@ function driversByName(arr) {
 }
 
 function totalRevenue(arr) {
-  return arr.reduce((a, c) => { console.log(a);  console.log(c) })
+  return arr.reduce((a, c) => { return { revenue : a.revenue + c.revenue } }).revenue
 }
