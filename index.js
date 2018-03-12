@@ -17,3 +17,10 @@ function driversByRevenue(arr) {
     return a.revenue > b.revenue
   })
 }
+
+function driversByRevenue(arr) {
+  let newArr = [...arr]
+  return newArr.sort(function (a, b) {
+    return a.name.localeCompare(b.name)
+  })
+}
