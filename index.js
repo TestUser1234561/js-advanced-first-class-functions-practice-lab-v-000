@@ -4,3 +4,9 @@ function logDriverNames(names) {
     console.log(names[el].name)
   }
 }
+
+function logDriversByHometown(names) {
+  for(el in names) {
+    console.log(names[el].name)
+  }
+}
