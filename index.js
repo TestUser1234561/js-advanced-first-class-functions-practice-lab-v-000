@@ -30,5 +30,5 @@ function totalRevenue(arr) {
 }
 
 function averageRevenue(arr) {
-  return arr.reduce((a, c) => { return { revenue : a.revenue + c.revenue } }).revenue
+  return arr.reduce((a, c) => { return { revenue : a.revenue + c.revenue } }).revenue / arr.length
 }
