@@ -5,8 +5,8 @@ function logDriverNames(names) {
   }
 }
 
-function logDriversByHometown(names) {
+function logDriversByHometown(names, town) {
   for(el in names) {
-    console.log(names[el].name)
+    if(names[el].hometown == town) { console.log(names[el].name) }
   }
 }
